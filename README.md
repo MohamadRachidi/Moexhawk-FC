@@ -6,18 +6,37 @@ It follows the [Pixhawk Connector](https://github.com/pixhawk/Pixhawk-Standards/
 ![image](https://github.com/user-attachments/assets/62828502-ffd1-4036-b971-44623e944b1c)
 
 # 🔶 **Features**
-| Feature       | Details                                 |
-|---------------|-----------------------------------------|
-| **CPU**       | Allwinner H616/H618 Quad-Core 1.5GHz    |
-| **RAM**       | 1GB/2GB/4GB LPDDR4                      |
-| **Storage**   | 8GB eMMC5.1                             |
-| **WIFI+BT**   | WIFI/BT5.0                              |
-| **Ethernet**  | 10M/100M                                |
-| **OS**        | Ubuntu 22.04                            |
 
-`TELEM2`
+| **Feature**                   | **Description**                                                |
+|-------------------------------|----------------------------------------------------------------|
+| **CSI Camera Port**           | 1x CSI camera for the Raspberry Pi CM4                        |
+| **CM4 Ethernet Port**         | 1x Ethernet port for CM4                                      |
+| **I2C/SPI/UART Ports**        | 1x each of I2C, SPI, and UART/I2C ports                      |
+| **CAN Ports**                 | 1x CAN port                                                  |
+| **Telemetry Ports**           | 1x Telemetry port                                            |
+| **Safety Switch**             | 1x Built-in Safety Switch on board                           |
+| **CM4 GPIO Ports**            | 20x CM4 GPIO  ports                                          |
+| **FC Port**                   | 1x FC port                                                   |
+| **USB Port**                  | 1x Type-C USB port                                           |
+| **FAN Connector**             | 1x FAN connector                                             |
+| **Status LEDs**               | 4x CM4 and 1x FC status LEDs                                 |
+| **Power Connectors**          | 1x Power connectors and 1x XT30                              |
+| **UBEC**                      | 1x 4-6s; the built-in UBEC powers the CM4 and I/O PWM ports.  |
+
+
+
 
 # Pinouts
+
+### RPi CM4 & FC Serial Connection
+The flight controller `TELEM2` port is internally connected to RPi CM4 as shown:
+| **RPi CM4** | **FC TELEM2 (FMU)** |
+|-----------------|-------------------------|
+| GPIO14 (TXD)    | TXD                     |
+| GPIO15 (RXD)    | RXD                     |
+| GPIO16 (CTS)    | CTS                     |
+| GPIO17 (RTS)    | RTS                     |
+
 
 ### POWER1 Pinout
 | **Pin**    | **Signal**        | **Voltage**       |
