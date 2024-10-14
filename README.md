@@ -26,7 +26,27 @@ It follows the [Pixhawk Connector](https://github.com/pixhawk/Pixhawk-Standards/
 
 
 
-# Pinouts
+
+# 🔶 **Supported Firmwares**
+
+## [**Ardupilot**](https://firmware.ardupilot.org/Copter/)
+
+- Version Requirement: Must use ArduPilot versions 3.8 and later with the Pixhawk
+- **Guide**: [Ardupilot Wiki on Running Companion Computer](https://ardupilot.org/dev/docs/companion-computers.html)
+
+## [**PX4**](https://github.com/PX4/PX4-Autopilot/releases)
+- **Version Requirement**: Must use PX4 1.13.1 Stable and newer.
+- **Guide**: [PX4 Guide on Running Companion Computer](https://docs.px4.io/main/en/companion_computer/pixhawk_companion.html) - Provides information on how to run a companion computer.
+  
+ ## **Tested Firmware**
+
+| **Test Cases**         | **Status**         |
+|------------------------|--------------------|
+| **ArduPilot**          | ✅ Tested          |
+| **PX4**                | ❌ Not Tested      |
+
+
+# 🔶 **Connections & Ports**
 
 ### RPi CM4 & FC Serial Connection
 The flight controller `TELEM2` port is internally connected to RPi CM4 as shown:
@@ -90,5 +110,6 @@ The flight controller `TELEM2` port is internally connected to RPi CM4 as shown:
 | S    | IO_CH1~8       | +3.3V    |
 | +    | VDD_SERVO      | 0~36V    |
 | -    | GND            | GND      |
+
 
 
