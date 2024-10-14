@@ -50,8 +50,8 @@ It follows the [Pixhawk Connector](https://github.com/pixhawk/Pixhawk-Standards/
 
 | **Peripheral**           | **Status**       |
 |--------------------------|------------------|
-| **POWER1 Pinout**        | ✅                |
-| **I2C Pinout**           | ✅                |
+| **CSI Camera**           | ✅                |
+| **I2C Pinout**           | ❔ Will be test    |
 | **CAN2 Pinout**          | ✅                |
 | **USB Pinout**           | ✅                |
 | **TELEM1 Pinout**        | ✅                |
