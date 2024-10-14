@@ -1,10 +1,11 @@
 # 📢 **MOEXHAWK**
-
-The **MOEXHAWK Baseboard** combines the Pixhawk FC module with the Raspberry Pi CM4 companion computer in one compact form factor with all the connections needed for development.
+The **MOEXHAWK V1.0.2 Baseboard** is a versatile single-board platform that combines a swappable Pixhawk flight controller and the Raspberry Pi CM4 companion computer. This baseboard offers a compact design, integrating all essential development connections in one place. It facilitates a smooth experience for developers needing an efficient and integrated solution for UAV or robotics projects.
 
 It follows the [Pixhawk Connector](https://github.com/pixhawk/Pixhawk-Standards/blob/master/DS-009%20Pixhawk%20Connector%20Standard.pdf) and [Autopilot Bus Standard](https://github.com/pixhawk/Pixhawk-Standards/blob/master/DS-010%20Pixhawk%20Autopilot%20Bus%20Standard.pdf), allowing easy swap of FC Module with any FC that follows the Pixhawk Bus Standard.
 
+![image](https://github.com/user-attachments/assets/62828502-ffd1-4036-b971-44623e944b1c)
 
+# 🔶 **Features**
 | Feature       | Details                                 |
 |---------------|-----------------------------------------|
 | **CPU**       | Allwinner H616/H618 Quad-Core 1.5GHz    |
@@ -13,13 +14,6 @@ It follows the [Pixhawk Connector](https://github.com/pixhawk/Pixhawk-Standards/
 | **WIFI+BT**   | WIFI/BT5.0                              |
 | **Ethernet**  | 10M/100M                                |
 | **OS**        | Ubuntu 22.04                            |
-
-
-
-
-
-![image](https://github.com/user-attachments/assets/62828502-ffd1-4036-b971-44623e944b1c)
-
 
 # Pinouts
 
