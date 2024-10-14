@@ -16,6 +16,61 @@ It follows the [Pixhawk Connector](https://github.com/pixhawk/Pixhawk-Standards/
 
 
 
+
+
 ![image](https://github.com/user-attachments/assets/62828502-ffd1-4036-b971-44623e944b1c)
 
+
+# Pinouts
+
+### I2C Pinout
+
+| **Pin**    | **Signal**   | **Voltage**           |
+|------------|--------------|-----------------------|
+| 1 (red)    | VCC          | +5V                   |
+| 2 (blk)    | SCL          | +3.3V (pullups)       |
+| 3 (blk)    | SDA          | +3.3V (pullups)       |
+| 4 (blk)    | GND          | GND                   |
+
+### CAN2 Pinout
+
+| **Pin**    | **Signal**   | **Voltage**           |
+|------------|--------------|-----------------------|
+| 1 (red)    | VCC          | +5V                   |
+| 2 (blk)    | CAN_H        | +12V                  |
+| 3 (blk)    | CAN_L        | +12V                  |
+| 4 (blk)    | GND          | GND                   |
+
+### POWER1 Pinout
+
+| **Pin**    | **Signal**        | **Voltage**       |
+|------------|-------------------|-------------------|
+| 1 (red)    | VCC               | +5V               |
+| 2 (red)    | VCC               | +5V               |
+| 3 (blk)    | CURRENT sensing   | +3.3V             |
+| 4 (blk)    | VOLTAGE sensing   | +3.3V             |
+| 5 (blk)    | GND               | GND               |
+| 6 (blk)    | GND               | GND               |
+
+### USB Pinout
+
+| **Pin**    | **Signal**        | **Voltage**       |
+|------------|-------------------|-------------------|
+| 1 (red)    | VCC               | +5V               |
+| 2 (blk)    | OTG_DP1           | +3.3V             |
+| 3 (blk)    | OTG_DM1           | +3.3V             |
+| 4 (blk)    | GND               | GND               |
+| 5 (blk)    | BUZZER            | Battery voltage   |
+| 6 (blk)    | FMU Error LED     |                   |
+
+### TELEM1 Pinout
+
+| **Pin**    | **Signal**        | **Voltage**       |
+|------------|-------------------|-------------------|
+| 1 (red)    | VCC               | +5V               |
+| 2 (blk)    | TX (OUT)          | +3.3V to 5V       |
+| 3 (blk)    | RX (IN)           | +3.3V to 5V       |
+| 4 (blk)    | CTS (OUT)         | +3.3V to 5V       |
+| 5 (blk)    | RTS (IN)          | +3.3V to 5V       |
+| 6 (blk)    | GND               | GND               |
 
