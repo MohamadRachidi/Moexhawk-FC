@@ -2,7 +2,7 @@
 
 The **MOEXHAWK Baseboard** combines the Pixhawk FC module with the Raspberry Pi CM4 companion computer in one compact form factor with all the connections needed for development.
 
-It follows the [Pixhawk Connector](https://github.com/pixhawk/Pixhawk-Standards/blob/master/DS-009%20Pixhawk%20Connector%20Standard.pdf) and Autopilot Bus Standard, allowing easy swap of FC Module with any FC that follows the Pixhawk Bus Standard.
+It follows the [Pixhawk Connector](https://github.com/pixhawk/Pixhawk-Standards/blob/master/DS-009%20Pixhawk%20Connector%20Standard.pdf) and [Autopilot Bus Standard](https://github.com/pixhawk/Pixhawk-Standards/blob/master/DS-010%20Pixhawk%20Autopilot%20Bus%20Standard.pdf), allowing easy swap of FC Module with any FC that follows the Pixhawk Bus Standard.
 
 
 | Feature       | Details                                 |
