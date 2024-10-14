@@ -14,3 +14,8 @@ It follows the [Pixhawk Connector](https://github.com/pixhawk/Pixhawk-Standards/
 | **Ethernet**  | 10M/100M                                |
 | **OS**        | Ubuntu 22.04                            |
 
+
+
+![image](https://github.com/user-attachments/assets/62828502-ffd1-4036-b971-44623e944b1c)
+
+
