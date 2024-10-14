@@ -38,7 +38,7 @@ It follows the [Pixhawk Connector](https://github.com/pixhawk/Pixhawk-Standards/
 - **Version Requirement**: Must use PX4 1.13.1 Stable and newer.
 - **Guide**: [PX4 Guide on Running Companion Computer](https://docs.px4.io/main/en/companion_computer/pixhawk_companion.html) - Provides information on how to run a companion computer.
 
-  # 🔶 **Test Cases**
+# 🔶 **Test Cases**
 
  ## **Tested Firmware**
 
@@ -46,7 +46,7 @@ It follows the [Pixhawk Connector](https://github.com/pixhawk/Pixhawk-Standards/
 |------------------------|---------------------|
 | **PX4**                | ❌ Not Tested       |
 
-## Peripheral Status
+ ## Peripheral Status
 
 | **Peripheral**           | **Status**       |
 |--------------------------|------------------|
@@ -59,7 +59,6 @@ It follows the [Pixhawk Connector](https://github.com/pixhawk/Pixhawk-Standards/
 | **eMMC Storage**         | ✅                |
 | **USB-0 Host**           | ✅                |
 | **Ethernet 10M/100M/1000M**| ✅              |
-| **Debug UART**           | ✅                |
 | **Status LED**           | ✅                |
 | **WiFi**                 | ✅                |
 
