@@ -37,13 +37,31 @@ It follows the [Pixhawk Connector](https://github.com/pixhawk/Pixhawk-Standards/
 ## [**PX4**](https://github.com/PX4/PX4-Autopilot/releases)
 - **Version Requirement**: Must use PX4 1.13.1 Stable and newer.
 - **Guide**: [PX4 Guide on Running Companion Computer](https://docs.px4.io/main/en/companion_computer/pixhawk_companion.html) - Provides information on how to run a companion computer.
-  
+
+  # 🔶 **Test Cases**
+
  ## **Tested Firmware**
 
-| **Test Cases**         | **Status**         |
-|------------------------|--------------------|
-| **ArduPilot**          | ✅ Tested          |
-| **PX4**                | ❌ Not Tested      |
+| **ArduPilot**          | ✅ Tested           |
+|------------------------|---------------------|
+| **PX4**                | ❌ Not Tested       |
+
+## Peripheral Status
+
+| **Peripheral**           | **Status**       |
+|--------------------------|------------------|
+| **POWER1 Pinout**        | ✅                |
+| **I2C Pinout**           | ✅                |
+| **CAN2 Pinout**          | ✅                |
+| **USB Pinout**           | ✅                |
+| **TELEM1 Pinout**        | ✅                |
+| **I/O PWM OUT (MAIN)**   | ✅                |
+| **eMMC Storage**         | ✅                |
+| **USB-0 Host**           | ✅                |
+| **Ethernet 10M/100M/1000M**| ✅              |
+| **Debug UART**           | ✅                |
+| **Status LED**           | ✅                |
+| **WiFi**                 | ✅                |
 
 
 # 🔶 **Connections & Ports**
@@ -57,6 +75,10 @@ The flight controller `TELEM2` port is internally connected to RPi CM4 as shown:
 | GPIO16 (CTS)    | CTS                     |
 | GPIO17 (RTS)    | RTS                     |
 
+### Recommend specification for RPi CM4:
+- Wireless: Yes
+- RAM: 4GB or higher
+- eMMC: 16GB or higher
 
 ### POWER1 Pinout
 | **Pin**    | **Signal**        | **Voltage**       |
