@@ -15,28 +15,11 @@ It follows the [Pixhawk Connector](https://github.com/pixhawk/Pixhawk-Standards/
 | **Ethernet**  | 10M/100M                                |
 | **OS**        | Ubuntu 22.04                            |
 
+`TELEM2`
+
 # Pinouts
 
-### I2C Pinout
-
-| **Pin**    | **Signal**   | **Voltage**           |
-|------------|--------------|-----------------------|
-| 1 (red)    | VCC          | +5V                   |
-| 2 (blk)    | SCL          | +3.3V (pullups)       |
-| 3 (blk)    | SDA          | +3.3V (pullups)       |
-| 4 (blk)    | GND          | GND                   |
-
-### CAN2 Pinout
-
-| **Pin**    | **Signal**   | **Voltage**           |
-|------------|--------------|-----------------------|
-| 1 (red)    | VCC          | +5V                   |
-| 2 (blk)    | CAN_H        | +12V                  |
-| 3 (blk)    | CAN_L        | +12V                  |
-| 4 (blk)    | GND          | GND                   |
-
 ### POWER1 Pinout
-
 | **Pin**    | **Signal**        | **Voltage**       |
 |------------|-------------------|-------------------|
 | 1 (red)    | VCC               | +5V               |
@@ -46,8 +29,23 @@ It follows the [Pixhawk Connector](https://github.com/pixhawk/Pixhawk-Standards/
 | 5 (blk)    | GND               | GND               |
 | 6 (blk)    | GND               | GND               |
 
-### USB Pinout
+### I2C Pinout
+| **Pin**    | **Signal**   | **Voltage**           |
+|------------|--------------|-----------------------|
+| 1 (red)    | VCC          | +5V                   |
+| 2 (blk)    | SCL          | +3.3V (pullups)       |
+| 3 (blk)    | SDA          | +3.3V (pullups)       |
+| 4 (blk)    | GND          | GND                   |
 
+### CAN2 Pinout
+| **Pin**    | **Signal**   | **Voltage**           |
+|------------|--------------|-----------------------|
+| 1 (red)    | VCC          | +5V                   |
+| 2 (blk)    | CAN_H        | +12V                  |
+| 3 (blk)    | CAN_L        | +12V                  |
+| 4 (blk)    | GND          | GND                   |
+
+### USB Pinout
 | **Pin**    | **Signal**        | **Voltage**       |
 |------------|-------------------|-------------------|
 | 1 (red)    | VCC               | +5V               |
@@ -58,7 +56,6 @@ It follows the [Pixhawk Connector](https://github.com/pixhawk/Pixhawk-Standards/
 | 6 (blk)    | FMU Error LED     |                   |
 
 ### TELEM1 Pinout
-
 | **Pin**    | **Signal**        | **Voltage**       |
 |------------|-------------------|-------------------|
 | 1 (red)    | VCC               | +5V               |
@@ -67,4 +64,12 @@ It follows the [Pixhawk Connector](https://github.com/pixhawk/Pixhawk-Standards/
 | 4 (blk)    | CTS (OUT)         | +3.3V to 5V       |
 | 5 (blk)    | RTS (IN)          | +3.3V to 5V       |
 | 6 (blk)    | GND               | GND               |
+
+### I/O PWM OUT (MAIN)
+| Pin  | Signal         | Volt     |
+|------|----------------|----------|
+| S    | IO_CH1~8       | +3.3V    |
+| +    | VDD_SERVO      | 0~36V    |
+| -    | GND            | GND      |
+
 
