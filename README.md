@@ -58,7 +58,7 @@ It follows the [Pixhawk Connector](https://github.com/pixhawk/Pixhawk-Standards/
 
 | **ArduPilot**          | ✅ Tested           |
 |------------------------|---------------------|
-| **PX4**                | ❌ Not Tested       |
+| **PX4**                | ❌ Not Tested Yet      |
 | **RPANION Server**     | ✅ Tested           |
 | **Raspberry Pi OS**    | ✅ Tested             |
 
@@ -67,7 +67,7 @@ It follows the [Pixhawk Connector](https://github.com/pixhawk/Pixhawk-Standards/
 | **Peripheral**           | **Status**         |
 |--------------------------|--------------------|
 | **CSI Camera**           | ✅                |
-| **I2C Pinout**           | ❔ Will be test    |
+| **I2C Pinout**           | ❌ Not Tested Yet    |
 | **CAN2 Pinout**          | ✅                |
 | **USB Pinout**           | ✅                |
 | **TELEM1 Pinout**        | ✅                |
