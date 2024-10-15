@@ -78,8 +78,14 @@ It follows the [Pixhawk Connector](https://github.com/pixhawk/Pixhawk-Standards/
 | **Status LED**           | ✅                |
 | **WiFi**                 | ✅                |
 
-
+## Recommend specification for RPi CM4:
+- Wireless: Yes
+- RAM: 4GB or higher
+- eMMC: 16GB or higher
 # 🔶 **Connections & Ports**
+
+
+![image](https://github.com/MohamadRachidi/Moexhawk-FC/blob/main/images/Connections%20%26%20Ports.jpg)
 
 ### RPi CM4 & FC Serial Connection
 The flight controller `TELEM2` port is internally connected to RPi CM4 as shown:
@@ -89,11 +95,6 @@ The flight controller `TELEM2` port is internally connected to RPi CM4 as shown:
 | GPIO15 (RXD)    | RXD                     |
 | GPIO16 (CTS)    | CTS                     |
 | GPIO17 (RTS)    | RTS                     |
-
-### Recommend specification for RPi CM4:
-- Wireless: Yes
-- RAM: 4GB or higher
-- eMMC: 16GB or higher
 
 ### POWER1 Pinout
 | **Pin**    | **Signal**        | **Voltage**       |
@@ -148,5 +149,10 @@ The flight controller `TELEM2` port is internally connected to RPi CM4 as shown:
 | +    | VDD_SERVO      | 0~36V    |
 | -    | GND            | GND      |
 
+# 🔶 **FEEDBACK**
+If you have any feedback, please reach out to me at [mohamad.elrashidi@gmail.com](mailto:mohamad.elrashidi@gmail.com)
+
+# 🔶 **ABOUT ME**
+Connect with me on [LinkedIn](https://www.linkedin.com/in/mohamedrachidi44/)
 
 
