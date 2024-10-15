@@ -55,7 +55,7 @@ It follows the [Pixhawk Connector](https://github.com/pixhawk/Pixhawk-Standards/
 # 🔶 **Test Cases**
 
  ## **Tested Firmware**
-| **Software**           |  **status**         |
+| **Software**           |  **Status**         |
 |------------------------|---------------------|
 | **ArduPilot**          | ✅ Tested           |
 | **PX4**                | ❌ Not Tested Yet      |
