@@ -44,10 +44,9 @@ It follows the [Pixhawk Connector](https://github.com/pixhawk/Pixhawk-Standards/
 - **Version Requirement**: Must use PX4 1.13.1 Stable and newer.
 - **Guide**: [PX4 Guide on Running Companion Computer](https://docs.px4.io/main/en/companion_computer/pixhawk_companion.html) - Provides information on how to run a companion computer.
 
-  ## [**Ardupilot**](https://firmware.ardupilot.org/Copter/)
-
-- Version Requirement: Must use ArduPilot versions 3.8 and later with the Pixhawk
-- **Guide**: [Ardupilot Wiki on Running Companion Computer](https://ardupilot.org/dev/docs/companion-computers.html)
+## [**RPANION SERVER**](https://github.com/stephendade/Rpanion-server/releases/tag/v0.10.0)
+- **Version Requirement**: Must use ArduPilot versions 3.8 and later with the Pixhawk
+- **Guide**: [RPANION Server For Companion Computer](https://github.com/stephendade/Rpanion-server)
 
 # 🔶 **Test Cases**
 
