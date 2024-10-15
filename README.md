@@ -37,16 +37,20 @@ It follows the [Pixhawk Connector](https://github.com/pixhawk/Pixhawk-Standards/
 
 ## [**Ardupilot**](https://firmware.ardupilot.org/Copter/)
 
-- Version Requirement: Must use ArduPilot versions 3.8 and later with the Pixhawk
+- Version Requirement: Must use ArduPilot versions `3.8` and later with the Pixhawk
 - **Guide**: [Ardupilot Wiki on Running Companion Computer](https://ardupilot.org/dev/docs/companion-computers.html)
 
 ## [**PX4**](https://github.com/PX4/PX4-Autopilot/releases)
-- **Version Requirement**: Must use PX4 1.13.1 Stable and newer.
+- **Version Requirement**: Must use PX4 `1.13.1` Stable and newer.
 - **Guide**: [PX4 Guide on Running Companion Computer](https://docs.px4.io/main/en/companion_computer/pixhawk_companion.html) - Provides information on how to run a companion computer.
 
 ## [**RPANION SERVER**](https://github.com/stephendade/Rpanion-server/releases/tag/v0.10.0)
-- **Version Requirement**: Must use ArduPilot versions 3.8 and later with the Pixhawk
+- **Version Requirement**: Must use RPANION Server version `0.10.0`
 - **Guide**: [RPANION Server For Companion Computer](https://github.com/stephendade/Rpanion-server)
+
+## [**RASPBERRY OS**](https://www.raspberrypi.com/software/operating-systems/)
+- **Version Requirement**: It is preferred to use the `latest version`.
+- **Guide**: [Flash an image to a Compute Module](https://www.raspberrypi.com/documentation/computers/compute-module.html#flash-compute-module-emmc)
 
 # 🔶 **Test Cases**
 
@@ -55,13 +59,13 @@ It follows the [Pixhawk Connector](https://github.com/pixhawk/Pixhawk-Standards/
 | **ArduPilot**          | ✅ Tested           |
 |------------------------|---------------------|
 | **PX4**                | ❌ Not Tested       |
-| **RPANION Server**          | ✅ Tested           |
-| **Raspberry Pi OS**                | ✅ Tested             |
+| **RPANION Server**     | ✅ Tested           |
+| **Raspberry Pi OS**    | ✅ Tested             |
 
  ## Peripheral Status
 
-| **Peripheral**           | **Status**       |
-|--------------------------|------------------|
+| **Peripheral**           | **Status**         |
+|--------------------------|--------------------|
 | **CSI Camera**           | ✅                |
 | **I2C Pinout**           | ❔ Will be test    |
 | **CAN2 Pinout**          | ✅                |
