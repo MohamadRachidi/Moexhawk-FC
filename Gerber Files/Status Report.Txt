@@ -1,0 +1,14 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [moexhawk_mini.PrjPcb]
+   Generated File[moexhawk's-PCB-V1.0.2-RoundHoles-Plated.TXT]
+   Generated File[moexhawk's-PCB-V1.0.2-RoundHoles-NonPlated.TXT]
+   Generated File[moexhawk's-PCB-V1.0.2-SlotHoles-Plated.TXT]
+   Generated File[moexhawk's-PCB-V1.0.2.LDP]
+   Generated File[moexhawk's-PCB-V1.0.2.DRR]
+
+
+Files Generated   : 5
+Documents Printed : 0
+
+Finished Output Generation At 7:26:06 PM On 7/21/2024
