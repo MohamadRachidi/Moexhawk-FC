@@ -55,9 +55,9 @@ It follows the [Pixhawk Connector](https://github.com/pixhawk/Pixhawk-Standards/
 # 🔶 **Test Cases**
 
  ## **Tested Firmware**
-
-| **ArduPilot**          | ✅ Tested           |
+| **Software**           |  **status**         |
 |------------------------|---------------------|
+| **ArduPilot**          | ✅ Tested           |
 | **PX4**                | ❌ Not Tested Yet      |
 | **RPANION Server**     | ✅ Tested           |
 | **Raspberry Pi OS**    | ✅ Tested             |
