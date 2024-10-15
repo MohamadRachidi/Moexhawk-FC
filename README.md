@@ -66,17 +66,17 @@ It follows the [Pixhawk Connector](https://github.com/pixhawk/Pixhawk-Standards/
 
 | **Peripheral**           | **Status**         |
 |--------------------------|--------------------|
-| **CSI Camera**           | ✅                |
+| **CSI Camera**           | ✅Tested        |
 | **I2C Pinout**           | ❌ Not Tested Yet    |
-| **CAN2 Pinout**          | ✅                |
-| **USB Pinout**           | ✅                |
-| **TELEM1 Pinout**        | ✅                |
-| **I/O PWM OUT (MAIN)**   | ✅                |
-| **eMMC Storage**         | ✅                |
-| **USB-0 Host**           | ✅                |
-| **Ethernet 10M/100M/1000M**| ✅              |
-| **Status LED**           | ✅                |
-| **WiFi**                 | ✅                |
+| **CAN2 Pinout**          | ✅Tested        |
+| **USB Pinout**           | ✅  Tested      |
+| **TELEM1 Pinout**        | ✅   Tested        |
+| **I/O PWM OUT (MAIN)**   | ✅   Tested       |
+| **eMMC Storage**         | ✅    Tested        |
+| **USB-0 Host**           | ✅   Tested        |
+| **Ethernet 10M/100M/1000M**| ✅     Tested     |
+| **Status LED**           | ✅   Tested        |
+| **WiFi**                 | ✅ Tested         |
 
 ## Recommend specification for RPi CM4:
 - Wireless: Yes
