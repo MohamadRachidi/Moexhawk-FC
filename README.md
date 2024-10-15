@@ -21,7 +21,7 @@ It follows the [Pixhawk Connector](https://github.com/pixhawk/Pixhawk-Standards/
 | **FAN Connector**             | 1x FAN connector                                             |
 | **Status LEDs**               | 4x CM4 and 1x FC status LEDs                                 |
 | **Power Connectors**          | 1x Power connectors and 1x XT30                              |
-| **UBEC**                      | 1x 4-6s; the built-in UBEC powers the CM4 and I/O PWM ports.  |
+| **UBEC**                      | 1x built-in UBEC powers the CM4 and I/O PWM ports            |
 
 
 
