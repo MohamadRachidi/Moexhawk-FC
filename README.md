@@ -145,7 +145,7 @@ The flight controller `TELEM2` port is internally connected to RPi CM4 as shown:
 ### I/O PWM OUT (MAIN)
 | Pin  | Signal         | Volt     |
 |------|----------------|----------|
-| S    | IO_CH1~8       | +3.3V    |
+| S    | IO_CH1~8       | +.3V    |
 | +    | VDD_SERVO      | 0~36V    |
 | -    | GND            | GND      |
 
