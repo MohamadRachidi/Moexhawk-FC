@@ -13,7 +13,7 @@ It follows the [Pixhawk Connector](https://github.com/pixhawk/Pixhawk-Standards/
 
 | **Feature**                   | **Description**                                                |
 |-------------------------------|----------------------------------------------------------------|
-| **CSI Camera Port**           | 1x CSI camera for the Raspberry Pi CM4                        |
+| **CSI Camera Pot**           | 1x CSI camera for the Raspberry Pi CM4                        |
 | **CM4 Ethernet Port**         | 1x Ethernet port for CM4                                      |
 | **I2C/SPI/UART Ports**        | 1x each of I2C, SPI, and UART/I2C ports                      |
 | **CAN Ports**                 | 1x CAN port                                                  |
